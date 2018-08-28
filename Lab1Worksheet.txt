@@ -1,23 +1,39 @@
-Lab 1 Worksheet
+﻿Lab 1 Worksheet
 
 1. What if 12 bits were used to store a signed integer. What is the biggest/smallest possible integer?
+The biggest integer: 2**12 - 1
+The smallest integer: -(2**12)
 
 2. Think about possible values and their range, say what type of variable would be suitable for the following, and suggest a name for it too. 
 
 For example: the temperature of a room in degrees Fahrenheit. Room temperature is likely to vary between say 50 degrees F and 100 degrees F,  but it can take any value in between including non-integers, e.g 71.19 F, so the type must be float or double depending on the accuracy required. A suitable variable name would be roomTemp. 
 
 
-(i) The number of pages in a book; 
+(i) The number of pages in a book;
+represented by a short, since some books can have as many as 500 pages. The number of pages is never a float, or a decimal. 
+A suitable name would be: pageNumbers
 
 (ii) The number of atoms in a book; 
+Since there are lots of atoms in a book, represent that number with a long.
+A suitable name would be numAtoms.
 
 (iii) The length of a side of a triangle in inches; 
+Since the length of a triangle side can be represented by a decimal, represent the number with a float. The side need not to be 
+accurate past 15 significant figures.
+A suitable name would be triangeSideLength.
 
 (iv) Your name; 
+My name is represented by a char, (character), or a string.
+A suitable name for my name: myName.
 
 (v) Whether or not a nucleus has decayed; 
+This is a boolean expression. True, the nucleus has decayed, or False: the nucleus is not decayed.
+A suitable name for this expression: isNucleusDecayed.
 
-(vi) The probability that it could have decayed. 
+(vi) The probability that it could have decayed.
+The probability is usually represented by a decimal number, so represent it with a float. The probability need not to be exact by 15 
+significiant figures.
+A suitable name for this probability is decayedProbability. 
 
 3. Start to do a little java programming! 
 	Follow the example of the Hello.java program and do some testing of Java int and float.
